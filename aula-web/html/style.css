@@ -6,7 +6,6 @@
 }
 
 body.principal {
-    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 232, 232);
 }
@@ -52,6 +51,7 @@ main.principal {
 }
 
 section#conteudo {
+    display: block;
     max-width: 800px;
     min-width: 600px;
     min-height: 600px;
